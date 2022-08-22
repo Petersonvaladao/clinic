@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#">
+          <h2 class="logo">logo</h2>
+        </a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img class="icon-hamburger" src="images/icon-hamburger.svg" alt="" aria-hidden="true">
+          <img class="icon-close" src="images/icon-close.svg" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="#">Profissionais</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre a clínica</a></li>
+            <li><a href="#">Depoimentos</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <button class="button | display-sm-none display-md-inline-flex">Agende agora!</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow">
+            <h1 class="fs-primary-heading fw-bold">Nossos profissionais te ajudam a sorrir de verdade!</h1>
+            <p>Descubra o que nossos tratamentos de limpeza, restauração e muito mais podem fazer pelo seu sorriso</p>
+            <button class="button">Agende agora!</button>
+          </div>
+          <div class="main-img">
+            <img class="dentist-img" src="images/dentist.png" alt="dentista">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow text-center-sm-only margi" style="--flow-spacer: 1.5rem">
+            <h2 class="fs-secondary-heading fw-bold">Sorria com saúde e muita autoestima!
+            </h2>
+            <p>Aqui você encontra nossos tratamentos estéticos que vão lhe garantir um sorriso mais bonito, brilhante e com muita autoestima.
+            </p>
+          </div>
+          <div>
+            <ul class="numbered-items | flow" role="list">
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Tratamentos Ortodônticos</h3>
+                  <p class="numbered-items__body" data-width="wide">Encontre aqui nossos tratamentos ortodônticos que vão lhe proporcionar uma mastigação mais adequada e um sorriso mais alinhado.</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Implantes</h3>
+                  <p class="numbered-items__body" data-width="wide">Perdeu um ou mais dos seus dentes naturais? Conheça nossos tratamentos de implantes dentários e recupere o seu sorriso.</p>
+
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Dentes mais saudáveis e cheios de vida!</h3>
+                  <p class="numbered-items__body" data-width="wide">Descubra o que nossos tratamentos de limpeza, restauração e muito mais podem fazer pelo seu sorriso.</p>
+
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
+      <div class="container">
+        <div class="even-columns vertical-align-center">
+          <div>
+            <p class="fs-primary-heading fw-bold">Com a gente o seu sorriso é garantido</p>
+          </div>
+          <div class="justify-self-end-md">
+            <button class="button" data-type="inverted">Agende agora!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="primary-footer-wrapper">
+        <div class="primary-footer-logo-social">
+          <a href="#" aria-label="home">
+            <svg class="logo" width="146" height="24">
+              <use xlink:href="images/logo.svg#logo"></use>
+            </svg>
+          </a>
+
+          <ul class="social-list" role="list" aria-label="Social links">
+            <li><a aria-label="facebook" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-facebook"></use>
+                </svg></a>
+            </li>
+            <li><a aria-label="youtube" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-youtube"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="twitter" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-twitter"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="pinterest" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
+                </svg>
+              </a></li>
+            <li><a aria-label="instragram" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-instagram"></use>
+                </svg>
+              </a></li>
+          </ul>
+        </div>
+        <div class="primary-footer-nav">
+          <nav class="footer-nav">
+            <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
+              <li><a href="#">Profissionais</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Sobre a clínica</a></li>
+              <li><a href="#">Depoimentos</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Política de privacidade</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="primary-footer-form">
+          <form action="">
+            <input type="email">
+            <button class="button" data-shadow="none">Ir</button>
+          </form>
+
+        </div>
+      </div>
+      <p class="copy">Copyright 2020. Direitos Reservados</p>
+    </div>
+
+  </footer>
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
